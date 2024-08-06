@@ -1,0 +1,21 @@
+@import url(../node_modules/bootstrap/scss/bootstrap.scss);
+@import url(./scss/_header.scss);
+@import url(./scss/_footer.scss);
+main{
+    background-color: white;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
+.card{
+    border: 0;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 3px inset, rgba(255, 255, 255, 0.5) 3px 3px 6px 1px inset;
+}
+main{
+    background-color: whitesmoke;
+}
